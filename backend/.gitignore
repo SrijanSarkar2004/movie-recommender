@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Database — local only, never commit
+*.db
+*.sqlite
+*.sqlite3
+
+# ML artefacts — produced by the Colab notebook (Phase 4)
+embeddings.pt
+movieid_to_tmdbid.json
+
+# Secrets
+.env.local
+.env.*.local
+.env
