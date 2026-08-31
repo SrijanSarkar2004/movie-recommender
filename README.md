@@ -189,4 +189,3 @@ The following are **never committed to git**:
 
 ---
 
-*Built as a résumé-grade original project demonstrating GNN-based collaborative filtering on real-world data.*
