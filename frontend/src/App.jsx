@@ -281,10 +281,7 @@ export default function App() {
         {/* ── Divider ── */}
         {trending.length > 0 && <div className="section-divider" />}
 
-        {/* ── Recommended (hidden until first search) ── */}
-        <RecommendedSection viewedIds={viewedIds} />
-
-        {/* ── Movie grid ── */}
+        {/* ── Movie grid (searches) ── */}
         <section className="section" aria-labelledby="movies-heading">
           <div className="container">
             <div className="section-header">
@@ -356,6 +353,9 @@ export default function App() {
             )}
           </div>
         </section>
+
+        {/* ── Recommended (hidden until first search) ── */}
+        <RecommendedSection viewedIds={viewedIds} />
       </main>
 
       {/* ── Footer ── */}
