@@ -3,15 +3,12 @@
 .env.local
 .env.*.local
 
-# ── ML artefacts (large / derived) ───────────────────────────────────────────
-ml/data/
-*.pt
-movieid_to_tmdbid.json
 
 # ── Database ──────────────────────────────────────────────────────────────────
 *.db
 *.db-shm
 *.db-wal
+*.csv
 
 # ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
