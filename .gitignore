@@ -4,9 +4,7 @@
 .env.*.local
 
 # ── ML artefacts (large / derived) ───────────────────────────────────────────
-ml/data/
-*.pt
-movieid_to_tmdbid.json
+
 
 # ── Database ──────────────────────────────────────────────────────────────────
 *.db
